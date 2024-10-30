@@ -1,10 +1,17 @@
-import CarList from "./components/CarList";
 import CarForm from "./components/CarForm";
-import CarValue from "./components/CarValue";
 import CarSearch from "./components/CarSearch";
+import CarList from "./components/CarList";
+import CarValue from "./components/CarValue";
 
 function App() {
-  return <div>Hi</div>;
+  return (
+    <>
+      <CarForm />
+      <CarSearch />
+      <CarList />
+      <CarValue />
+    </>
+  );
 }
 
 export default App;
